@@ -1,0 +1,237 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.flex{display: flex ;}
+.main-container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* inizio header */
+.head{
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+ 
+}
+
+.link-header{padding: 0 25px;
+color: white;
+font-size: 25px;}
+
+.info-flex{
+    
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content:space-around ;
+    align-items: center;
+}
+
+#logo1{ width: 200px;
+height: 200px;} 
+
+.info{
+    margin: auto;
+    padding: 15px;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.logo{
+    text-align: left;
+    width: 20%;
+}
+
+.link{
+    text-align: center;
+    width: 50%;
+    
+}
+
+#accedi{
+    border-radius: 12px;
+    border: 1px white solid;
+    background-color: white;
+    padding: 10px 15px;
+    font-size: 25px;
+}
+
+
+.login{
+    text-align: right;
+    width: 25%;
+    font-size: 40px;
+}
+   
+ .centrale-flex{
+    width: 70%;
+    padding: 40px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.sotto-container{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{font-size: 70px;
+color: white;
+padding-bottom: 50px;}
+
+#paragrafo-header{
+    text-align: center;
+    font-size: 28px;
+    color: white;
+    padding-bottom: 50px;
+}
+   
+
+
+#arrow-down{height: 25px;}
+#button1{
+    font-size: 30px;
+    border: 1px solid white;
+    border-radius: 30px;
+    background-color: white;
+    padding: 15px 20px;
+    align-self: center;
+    margin-right: 50px;
+}
+#button2{ 
+    font-size: 30px;
+    color: white;
+    background-color: #23272A;
+    border: #23272A solid 1px;
+    border-radius: 30px;
+    padding: 15px 20px;
+    align-self: center;
+}
+/* fine header */
+
+/* inizio body */
+.body-container{
+    width: 100%;
+    margin: auto;
+}
+
+.bianca-flex{
+    background-color: white;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.maggiore{
+    background-color: #1E90FF;
+    height: 500px;
+    width:30%;
+    border: 2px dashed black;
+}
+
+.minore{
+    background-color: #FFC0CB;
+    height: 500px;
+    width: 20%;
+    border: 2px dashed black;
+}
+
+.grigia-flex{
+    background-color: #D3D3D3;
+    margin: 50px auto;
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#centro-grigia-flex{
+    background-color: #FFC0CB;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#unico{
+    height: 700px;
+    width: 51%;
+    margin: auto;
+    border: 2px dashed black;
+    background-color: #228B22;
+}
+/* fine body */
+
+/* inizio foooter */
+footer{background-color: #23272A;
+}
+
+.multi-flex{
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#singolo{
+    height: 500px;
+    width: 15%;
+    background-color: #F08080;
+    border: 2px dashed black;
+}
+
+
+#multiplo-flex{
+    width: 37%;
+    height: 500px;
+    display: flex;
+   
+}
+
+.colonne{
+    width: 25%;
+    background-color: #20B2AA;
+    border: 2px dashed white;
+}
+
+#flex-footer{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#container-footer{
+    background-color: white;
+    width: 50%;
+    padding: 25px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+}
+
+.bottom{
+    border: 2px dashed black;
+    background-color: #FFB6C1;
+    font-size: 25px;
+    font-weight: 400;
+    padding: 5px;
+    
+    
+}
+/* fine footer */
+
+
